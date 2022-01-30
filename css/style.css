@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 /* Basic Style */
+*{
+    font-family: 'Dongle', sans-serif;
+}
 body {
   background: #FFEFBA;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #333;
-  font-family: 'Supermercado One', cursive;
 }
 .container {
   display: block;
